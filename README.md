@@ -2,35 +2,51 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>IB FASHION</title>
+    <title>IB PROJECT</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header class="header">
-    <div class="logo">IB</div>
+<header class="top">
+    <div class="brand">IB</div>
     <nav>
-        <a href="#">Коллекция</a>
-        <a href="#">Стиль</a>
+        <a href="#">Главная</a>
+        <a href="#">Коллекции</a>
+        <a href="#">О проекте</a>
         <a href="#">Контакты</a>
     </nav>
 </header>
 
 <section class="hero">
-    <h1>IB FASHION</h1>
-    <p>Цвет. Характер. Уровень.</p>
-    <button>Смотреть дроп</button>
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>IB CLOTHING</h1>
+        <p>Премиальный стиль. Уровень проекта.</p>
+        <div class="buttons">
+            <button class="main">Смотреть дроп</button>
+            <button class="ghost">О проекте</button>
+        </div>
+    </div>
 </section>
 
-<section class="showcase">
-    <div class="item pink">NEON</div>
-    <div class="item purple">STYLE</div>
-    <div class="item orange">DROP</div>
+<section class="stats">
+    <div class="stat">
+        <span>12+</span>
+        <p>Коллекций</p>
+    </div>
+    <div class="stat">
+        <span>500+</span>
+        <p>Моделей</p>
+    </div>
+    <div class="stat">
+        <span>IB</span>
+        <p>Эксклюзив</p>
+    </div>
 </section>
 
 <footer>
-    IB PROJECT © 2026
+    © IB PROJECT • Inspired by RP aesthetics
 </footer>
 
 </body>
